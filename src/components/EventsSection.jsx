@@ -63,11 +63,11 @@ export default function EventsSection({ events }) {
                 className="relative rounded-2xl overflow-hidden flex flex-col justify-between bg-[#FFFDF9] border border-[#D4AF37]/50 hover:border-[#D4AF37] transition-all duration-300 shadow-[0_12px_30px_rgba(74,14,23,0.08)] group hover:-translate-y-1.5"
               >
                 {/* Event Image Banner */}
-                <div className="relative h-48 sm:h-52 w-full overflow-hidden bg-[#FAF5EB]">
+                <div className="relative h-56 sm:h-64 w-full overflow-hidden bg-[#FAF5EB]">
                   <img
                     src={evt.image}
                     alt={evt.name}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#2A050D]/40 via-transparent to-transparent opacity-60" />
                 </div>
@@ -144,11 +144,11 @@ export default function EventsSection({ events }) {
                 <X className="w-5 h-5" />
               </button>
 
-              <div className="w-full h-44 rounded-2xl overflow-hidden mb-5">
+              <div className="w-full h-56 sm:h-64 rounded-2xl overflow-hidden mb-5 bg-[#FAF5EB]">
                 <img
                   src={selectedEvent.image}
                   alt={selectedEvent.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-[center_20%]"
                 />
               </div>
 

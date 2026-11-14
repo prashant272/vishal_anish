@@ -27,11 +27,11 @@ export const weddingData = {
     invitationHonor: "You Are Cordially Invited",
     dateText: "15 February 2027",
     targetDate: "2027-02-15T19:00:00+05:30",
-    venueName: "Dwivedi Niwash",
-    city: "Near Shiv Mandir, Sasamusa",
-    fullAddress: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
-    googleMapsEmbedUrl: "https://maps.google.com/?q=Dwivedi+Niwash+Near+Shiv+Mandir+Sasamusa",
-    mapDirectionsUrl: "https://maps.google.com/?q=Dwivedi+Niwash+Near+Shiv+Mandir+Sasamusa",
+    venueName: "Jamunaha Bazar",
+    city: "Gopalganj",
+    fullAddress: "Jamunaha Bazar, Gopalganj",
+    googleMapsEmbedUrl: "https://maps.google.com/?q=Jamunaha+Bazar+Gopalganj",
+    mapDirectionsUrl: "https://maps.google.com/?q=Jamunaha+Bazar+Gopalganj",
     receptionVenue: null,
     heroImage: "/hero_beach_palace.jpg",
     couplePortrait: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=85"
@@ -43,7 +43,7 @@ export const weddingData = {
       tagline: "Auspicious tilak rituals, blessings & celebratory beginning",
       date: "09 February 2027",
       time: "05:00 PM onwards",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       dressCode: "Traditional Indian Attire",
       image: "/events/tilak_banner.jpg",
       icon: "Sparkles"
@@ -54,7 +54,7 @@ export const weddingData = {
       tagline: "Intricate henna, lively folk music & sweet memories",
       date: "13 February 2027",
       time: "04:00 PM onwards",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       dressCode: "Festive Green & Florals",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPH1bZQb0nZ69xJeGOPCmkboE_pOZ8jIb98u2NifL92Xdd9Om4gKJJjRAY&s=10",
       icon: "Flower"
@@ -65,7 +65,7 @@ export const weddingData = {
       tagline: "A splash of golden turmeric, marigold showers & joyous blessings",
       date: "14 February 2027",
       time: "10:00 AM onwards",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       dressCode: "Sunshine Yellow & Traditional Florals",
       image: "/events/haldi_banner.jpg",
       icon: "Sparkles"
@@ -76,7 +76,7 @@ export const weddingData = {
       tagline: "Sacred Vedic rituals, Saat Phere & timeless vows",
       date: "15 February 2027",
       time: "07:00 PM onwards",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       dressCode: "Regal Indian Traditional",
       image: "/events/muhuratham_banner.jpg",
       icon: "Crown"
@@ -88,7 +88,7 @@ export const weddingData = {
       title: "Tilak Ceremony",
       time: "05:00 PM onwards",
       description: "Welcoming the auspicious beginnings with sacred Vedic tilak rituals, family blessings, and joyous greetings.",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       attire: "Traditional Festive Attire",
       image: "/events/tilak_banner.jpg"
     },
@@ -97,7 +97,7 @@ export const weddingData = {
       title: "Mehandi Ceremony",
       time: "04:00 PM onwards",
       description: "Adorning hands with auspicious fragrant henna, soulful music, dance, and colorful festive cheer.",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       attire: "Vibrant Greens & Traditional Prints",
       image: "/events/pool_party_banner.jpg"
     },
@@ -106,7 +106,7 @@ export const weddingData = {
       title: "Manglik Haldi Ceremony",
       time: "10:00 AM onwards",
       description: "Shower of golden turmeric, saffron, and fragrant marigold petals to bless the bride and groom.",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       attire: "Sunshine Yellow & Traditional Florals",
       image: "/events/haldi_banner.jpg"
     },
@@ -115,7 +115,7 @@ export const weddingData = {
       title: "Wedding Ceremony (Saat Phere)",
       time: "07:00 PM onwards",
       description: "Under the sacred Vedic chants and holy fire, Priya and Anish will exchange garlands, take seven eternal vows, and unite in holy matrimony.",
-      venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
+      venue: "Jamunaha Bazar, Gopalganj",
       attire: "Regal Indian Traditional",
       image: "/events/Lavish Twilight Wedding Reception.png"
     }
