@@ -234,7 +234,7 @@ export default function RSVPSection() {
                 {/* Message for the Couple */}
                 <div>
                   <label className="block font-cinzel text-xs uppercase tracking-widest text-[#8B1E3F] mb-2 font-semibold">
-                    Warm Blessings / Message for Anish & Priya
+                    Warm Blessings / Message for Priya & Anish
                   </label>
                   <div className="relative">
                     <MessageSquare className="absolute left-4 top-4 w-4 h-4 text-[#D4AF37]" />

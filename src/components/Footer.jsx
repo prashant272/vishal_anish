@@ -23,7 +23,7 @@ export default function Footer({ weddingData }) {
 
         {/* Monogram */}
         <h3 className="font-cinzel-decorative font-bold text-3xl md:text-4xl text-[#FFE89E] mb-2">
-          {weddingData.groom.name} & {weddingData.bride.name}
+          {weddingData.bride.name} & {weddingData.groom.name}
         </h3>
 
         <p className="font-serif-royal italic text-sm text-[#FAF5EB]/80 max-w-md mx-auto mb-6">
@@ -45,7 +45,7 @@ export default function Footer({ weddingData }) {
           <div className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-gradient-to-r from-[#2A050D] via-[#4A0E17] to-[#2A050D] border border-[#D4AF37]/45 shadow-[0_6px_20px_rgba(0,0,0,0.4)]">
             <span className="text-[#D4AF37] text-xs">❦</span>
             <span className="font-serif-royal italic text-xs sm:text-sm text-[#FFE89E] tracking-wider font-medium">
-              With Love from <span className="font-semibold text-white">Dwivedi</span> &amp; <span className="font-semibold text-white">Mishra</span> Families
+              With Love from <span className="font-semibold text-white">Mishra</span> &amp; <span className="font-semibold text-white">Dwivedi</span> Families
             </span>
             <span className="text-[#D4AF37] text-xs">❦</span>
           </div>

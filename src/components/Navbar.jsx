@@ -42,7 +42,7 @@ export default function Navbar({ isAudioPlaying, toggleAudio }) {
             </div>
           </div>
           <span className="font-cinzel text-xs sm:text-sm font-semibold tracking-[0.2em] text-[#FFE89E] group-hover:text-white transition-colors">
-            Anish & Priya
+            Priya & Anish
           </span>
         </a>
 

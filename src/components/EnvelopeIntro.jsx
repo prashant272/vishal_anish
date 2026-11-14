@@ -167,7 +167,7 @@ export default function EnvelopeIntro({ onOpen, weddingData, isAudioPlaying, tog
               </p>
 
               <h1 className="font-cinzel-decorative font-bold text-2xl sm:text-3xl text-[#4A0E17] my-1 tracking-wide">
-                {weddingData.groom.name} & {weddingData.bride.name}
+                {weddingData.bride.name} & {weddingData.groom.name}
               </h1>
 
               <div className="h-[1px] w-24 bg-[#D4AF37] mx-auto my-2" />

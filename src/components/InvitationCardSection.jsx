@@ -58,10 +58,10 @@ export default function InvitationCardSection({ weddingData }) {
                 </span>
               </div>
 
-              {/* Couple Calligraphy Names: Groom first, then Bride */}
+              {/* Couple Calligraphy Names: Bride first, then Groom */}
               <div className="my-2 py-1 w-full overflow-visible">
                 <h2 className="font-script text-4xl sm:text-6xl md:text-7xl maroon-text-gradient drop-shadow-sm font-normal leading-tight">
-                  {weddingData.groom.name} & {weddingData.bride.name}
+                  {weddingData.bride.name} & {weddingData.groom.name}
                 </h2>
               </div>
 

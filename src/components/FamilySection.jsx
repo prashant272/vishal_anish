@@ -57,59 +57,12 @@ export default function FamilySection({ groom, bride }) {
         {/* 2 Column Family Notched Plaques */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 w-full max-w-4xl">
           
-          {/* Groom's Family Plaque */}
-          <motion.div
-            initial={{ opacity: 0, y: 25 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-            className="flex flex-col items-center"
-          >
-            {/* Top Golden Crown / Kalash Motif Emblem */}
-            <div className="flex justify-center -mb-3 z-10">
-              <div className="w-10 h-7 text-[#D4AF37] flex items-center justify-center">
-                <svg viewBox="0 0 40 30" fill="currentColor" className="w-8 h-8 filter drop-shadow-sm">
-                  <path d="M20 2L23 10L30 6L26 16L34 20L20 26L6 20L14 16L10 6L17 10L20 2Z" fill="#D4AF37"/>
-                  <circle cx="20" cy="14" r="2" fill="#FFE89E"/>
-                </svg>
-              </div>
-            </div>
-
-            {/* Notched Classic Gold Border Plaque */}
-            <div className="w-full rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-[#FFFDF9]/95 border-2 border-[#D4AF37]/60 shadow-[0_12px_30px_rgba(74,14,23,0.08)] text-center relative">
-              {/* Ornate corner notch accents */}
-              <div className="absolute top-2.5 left-2.5 w-4 h-4 border-t-2 border-l-2 border-[#D4AF37]" />
-              <div className="absolute top-2.5 right-2.5 w-4 h-4 border-t-2 border-r-2 border-[#D4AF37]" />
-              <div className="absolute bottom-2.5 left-2.5 w-4 h-4 border-b-2 border-l-2 border-[#D4AF37]" />
-              <div className="absolute bottom-2.5 right-2.5 w-4 h-4 border-b-2 border-r-2 border-[#D4AF37]" />
-
-              {/* Groom's Name in Calligraphic Script Font matching image */}
-              <h3 className="font-script text-4xl sm:text-5xl text-[#520A17] font-normal tracking-wide mb-1 leading-tight">
-                {groom?.name || "Anish"}
-              </h3>
-
-              <div className="w-16 h-[1px] bg-[#D4AF37] mx-auto mb-4 opacity-70" />
-
-              {/* Groom Family details with exact typography from image */}
-              <div className="space-y-4">
-                <div>
-                  <span className="font-cinzel text-[11px] sm:text-xs tracking-[0.25em] text-[#8B1E3F] uppercase font-bold block mb-1.5">
-                    SON OF
-                  </span>
-                  <p className="font-serif-royal text-sm sm:text-base text-[#2A050D] font-medium leading-relaxed">
-                    Smt. Mira Devi &amp; Shri Sitaram Dwivedi
-                  </p>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
           {/* Bride's Family Plaque */}
           <motion.div
             initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.15 }}
+            transition={{ duration: 0.7 }}
             className="flex flex-col items-center"
           >
             {/* Top Golden Crown / Kalash Motif Emblem */}
@@ -145,6 +98,53 @@ export default function FamilySection({ groom, bride }) {
                   </span>
                   <p className="font-serif-royal text-sm sm:text-base text-[#2A050D] font-medium leading-relaxed">
                     Smt. Seema Devi &amp; Late Shri Santosh Mishra
+                  </p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Groom's Family Plaque */}
+          <motion.div
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.15 }}
+            className="flex flex-col items-center"
+          >
+            {/* Top Golden Crown / Kalash Motif Emblem */}
+            <div className="flex justify-center -mb-3 z-10">
+              <div className="w-10 h-7 text-[#D4AF37] flex items-center justify-center">
+                <svg viewBox="0 0 40 30" fill="currentColor" className="w-8 h-8 filter drop-shadow-sm">
+                  <path d="M20 2L23 10L30 6L26 16L34 20L20 26L6 20L14 16L10 6L17 10L20 2Z" fill="#D4AF37"/>
+                  <circle cx="20" cy="14" r="2" fill="#FFE89E"/>
+                </svg>
+              </div>
+            </div>
+
+            {/* Notched Classic Gold Border Plaque */}
+            <div className="w-full rounded-2xl sm:rounded-3xl p-6 sm:p-8 bg-[#FFFDF9]/95 border-2 border-[#D4AF37]/60 shadow-[0_12px_30px_rgba(74,14,23,0.08)] text-center relative">
+              {/* Ornate corner notch accents */}
+              <div className="absolute top-2.5 left-2.5 w-4 h-4 border-t-2 border-l-2 border-[#D4AF37]" />
+              <div className="absolute top-2.5 right-2.5 w-4 h-4 border-t-2 border-r-2 border-[#D4AF37]" />
+              <div className="absolute bottom-2.5 left-2.5 w-4 h-4 border-b-2 border-r-2 border-[#D4AF37]" />
+              <div className="absolute bottom-2.5 right-2.5 w-4 h-4 border-b-2 border-r-2 border-[#D4AF37]" />
+
+              {/* Groom's Name in Calligraphic Script Font matching image */}
+              <h3 className="font-script text-4xl sm:text-5xl text-[#520A17] font-normal tracking-wide mb-1 leading-tight">
+                {groom?.name || "Anish"}
+              </h3>
+
+              <div className="w-16 h-[1px] bg-[#D4AF37] mx-auto mb-4 opacity-70" />
+
+              {/* Groom Family details with exact typography from image */}
+              <div className="space-y-4">
+                <div>
+                  <span className="font-cinzel text-[11px] sm:text-xs tracking-[0.25em] text-[#8B1E3F] uppercase font-bold block mb-1.5">
+                    SON OF
+                  </span>
+                  <p className="font-serif-royal text-sm sm:text-base text-[#2A050D] font-medium leading-relaxed">
+                    Smt. Mira Devi &amp; Shri Sitaram Dwivedi
                   </p>
                 </div>
               </div>

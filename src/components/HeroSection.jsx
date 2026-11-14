@@ -115,13 +115,13 @@ export default function HeroSection({ weddingData }) {
 
           <h1 className="font-cinzel-decorative font-bold leading-tight flex flex-wrap items-center justify-center gap-2 sm:gap-3 md:gap-5 px-2">
             <span className="text-[30px] xs:text-[36px] sm:text-5xl md:text-6xl lg:text-7xl gold-text-shimmer drop-shadow-md tracking-wide">
-              {weddingData.groom.name}
+              {weddingData.bride.name}
             </span>
             <span className="font-script text-[30px] xs:text-[36px] sm:text-5xl md:text-6xl text-[#FFE89E] font-normal px-1">
               &
             </span>
             <span className="text-[30px] xs:text-[36px] sm:text-5xl md:text-6xl lg:text-7xl gold-text-shimmer drop-shadow-md tracking-wide">
-              {weddingData.bride.name}
+              {weddingData.groom.name}
             </span>
           </h1>
         </motion.div>

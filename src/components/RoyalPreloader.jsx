@@ -67,7 +67,7 @@ export default function RoyalPreloader({ onLoaded }) {
         </p>
 
         <h1 className="font-cinzel-decorative font-bold text-2xl sm:text-3xl gold-text-shimmer mb-6 tracking-wide">
-          Anish & Priya
+          Priya & Anish
         </h1>
 
         {/* Progress Bar Container */}

@@ -114,7 +114,7 @@ export const weddingData = {
       timingLabel: "Evening Sacred Ceremony",
       title: "Wedding Ceremony (Saat Phere)",
       time: "07:00 PM onwards",
-      description: "Under the sacred Vedic chants and holy fire, Anish and Priya will exchange garlands, take seven eternal vows, and unite in holy matrimony.",
+      description: "Under the sacred Vedic chants and holy fire, Priya and Anish will exchange garlands, take seven eternal vows, and unite in holy matrimony.",
       venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
       attire: "Regal Indian Traditional",
       image: "/events/Lavish Twilight Wedding Reception.png"
