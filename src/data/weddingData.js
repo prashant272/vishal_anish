@@ -45,7 +45,7 @@ export const weddingData = {
       time: "05:00 PM onwards",
       venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
       dressCode: "Traditional Indian Attire",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQPX3vQPTtcz4cJpZe9ZE4SJYAAETwSf51g9s9QCOnOhymxnNJOt2NTftv&s=10",
+      image: "/events/tilak_banner.jpg",
       icon: "Sparkles"
     },
     {
@@ -90,7 +90,7 @@ export const weddingData = {
       description: "Welcoming the auspicious beginnings with sacred Vedic tilak rituals, family blessings, and joyous greetings.",
       venue: "Dwivedi Niwash, Near Shiv Mandir, Sasamusa",
       attire: "Traditional Festive Attire",
-      image: "/events/muhuratham_banner.jpg"
+      image: "/events/tilak_banner.jpg"
     },
     {
       timingLabel: "Henna Celebration",
